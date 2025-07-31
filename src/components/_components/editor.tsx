@@ -54,7 +54,7 @@ export default function Editor() {
 					{[
 						'/vscode/replace.svg',
 						'/vscode/sidebar.svg',
-						'/vscode/menu.svg',
+						'/vscode/ellipsis.svg',
 					].map((url: string) => (
 						<Button
 							key={url}

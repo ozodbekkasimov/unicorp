@@ -7,7 +7,7 @@ export default function SidebarTitle({ title }: { title: string }) {
 				{title}
 			</p>
 			<Button size={'icon'} variant={'ghost'}>
-				<img src='/vscode/menu.svg' alt='Menu' className='size-[15px]' />
+				<img src='/vscode/ellipsis.svg' alt='Menu' className='size-[15px]' />
 			</Button>
 		</div>
 	)

@@ -258,10 +258,6 @@ export const bgImages: IBgImage[] = [
 		url: '/bg/bg1.png',
 		classes: 'absolute inset-0 top-[1500vh] sm:hidden -z-0',
 	},
-	{
-		url: '/bg/bg2.png',
-		classes: 'absolute inset-0 top-[1600vh] sm:hidden max-[550px]:hidden -z-0',
-	},
 ]
 
 export const footerLinks: IFooterLink[] = [
