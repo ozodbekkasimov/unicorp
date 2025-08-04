@@ -21,7 +21,7 @@ export default function ActiveBar() {
 		)
 	}
 	return (
-		<div className='absolute w-[4%] max-lg:w-[10%] max-sm:w-[14%] h-[90%] bg-[#181A1FB2]/70 top-[10%] flex flex-col items-center  justify-start'>
+		<div className='absolute w-[4%] max-lg:w-[10%] max-sm:w-[14%] h-[90%] bg-[#181A1FB2] top-[10%] flex flex-col items-center  justify-start '>
 			{activeBarIcons.map((icon: IActiveBarIcon) => (
 				<Button
 					key={icon.id}

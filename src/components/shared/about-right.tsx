@@ -1,4 +1,3 @@
-import { ServerIcon, Stars } from 'lucide-react'
 import { Button } from '../ui/button'
 
 function AboutRight() {
@@ -8,7 +7,9 @@ function AboutRight() {
 				<span className='w-[60px] h-[8px] max-sm:w-[50px] max-sm:h-[6px] bg-[#005AFF]'></span>
 				<p className='text-[20px] max-sm:text-[16px]'>Name</p>
 			</div>
-			<p className='text-yellow-500 text-[30px] max-sm:text-[26px]'>About Company</p>
+			<p className='text-yellow-500 text-[30px] max-sm:text-[26px]'>
+				About Company
+			</p>
 			<p className='text-white/50 text-[16px] leading-8 max-sm:text-[14px]'>
 				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam eius
 				possimus temporibus quia vitae voluptates dolorum eum, et magni fuga
@@ -19,11 +20,15 @@ function AboutRight() {
 			</p>
 			<div className='w-full h-[60px] flex gap-x-6 max-sm:gap-x-2 mt-4'>
 				<Button className='bg-background border-3 border-[#005AFF] text-white hover:bg-background w-[40%] h-[100%] z-10 max-sm:w-[45%]'>
-					<ServerIcon className='text-blue-500' />
+					<img src='/about/service.png' width={'20px'} height={'20px'} />
 					<p>Quality Services</p>
 				</Button>
-				<Button variant={'default'} className='text-white w-[40%] h-[100%] max-sm:w-[45%]'>
-					<Stars />
+				<Button
+					variant={'default'}
+					className='text-white w-[40%] h-[100%] max-sm:w-[45%]'
+				>
+					<img src='/about/stars.png' width={'20px'} height={'20px'} />
+
 					<p>Unusel Projects</p>
 				</Button>
 			</div>

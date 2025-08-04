@@ -13,10 +13,13 @@ import { bgImages } from './constants'
 import type { IBgImage } from './types'
 function App() {
 	return (
-		<div className='w-full bg-background scroll-smooth transition duration-300 overflow-x-hidden'>
+		<div className='w-full bg-[#030303] scroll-smooth transition duration-300 overflow-x-hidden'>
 			<div className='md:px-16 px-6 flex justify-center '>
 				<Navbar />
 				<Hero />
+				<div className='absolute inset-0  object-cover'>
+					<img src='/bg/bg-home.png' className='size-full' />
+				</div>
 			</div>
 			<div className='w-full'>
 				<About />

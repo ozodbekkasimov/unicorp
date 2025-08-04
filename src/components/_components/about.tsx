@@ -5,7 +5,7 @@ function About() {
 	return (
 		<section
 			id='about'
-			className='w-full lg:h-screen h-[100%] bg-backround flex content-center relative'
+			className='w-full lg:h-screen md:min-h-[100%]  md:mt-0 min-[340px]:mt-60 mt-40 bg-backround flex content-center relative'
 		>
 			<div className='w-full flex items-center justify-around md:px-10 px-6 lg:pt-10 max-lg:flex-col-reverse max-lg:gap-y-10'>
 				<CodePriview />

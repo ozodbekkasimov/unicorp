@@ -3,6 +3,11 @@ export interface ILink {
 	route: string
 }
 
+export interface IHeroStats {
+	title: string
+	descr: string
+}
+
 export interface IService {
 	title: string
 	image: string
@@ -78,5 +83,4 @@ export interface IEditorFile {
 export interface IBgImage {
 	url: string
 	classes: string
-	
 }

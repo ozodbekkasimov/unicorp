@@ -44,7 +44,6 @@ export default function Mobile() {
 				<DropdownMenuGroup>
 					<DropdownMenuSub>
 						<DropdownMenuSubTrigger>Language</DropdownMenuSubTrigger>
-
 						<DropdownMenuPortal>
 							<DropdownMenuSubContent>
 								<DropdownMenuItem>Eng</DropdownMenuItem>

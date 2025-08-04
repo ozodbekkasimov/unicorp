@@ -17,7 +17,6 @@ function Partners() {
 						</div>
 					))}
 			</div>
-			<div className='absolute inset-0 bg-blue-500 blur-[300px] max-md:blur-[3000px]'></div>
 		</div>
 	)
 }

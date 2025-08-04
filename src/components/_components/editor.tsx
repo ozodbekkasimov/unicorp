@@ -27,14 +27,14 @@ export default function Editor() {
 
 	return (
 		<div className={cn(`absolute top-[10%] h-[90%]`, positionClass)}>
-			<div className='w-full h-[15%] bg-[#131619B2]/70 flex justify-between '>
+			<div className='w-full h-[15%] bg-[#131619B2] flex justify-between '>
 				<div className='w-full h-full '>
 					{editorFiles.map(
 						(file: IEditorFile) =>
 							file.isActive && (
 								<div
 									key={file.id}
-									className='w-[170px] max-sm:w-[130px] h-full bg-[#181A1F80] flex items-center justify-center relative'
+									className='w-[170px] max-sm:w-[130px] h-full bg-[#181A1FCC] flex items-center justify-center relative'
 								>
 									<p className='font-[600] inter w-[80%] text-center max-sm:text-[14px]'>
 										{file.name}

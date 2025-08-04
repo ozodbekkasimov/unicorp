@@ -2,6 +2,7 @@ import type {
 	IBgImage,
 	IContact,
 	IFooterLink,
+	IHeroStats,
 	ILink,
 	IPerson,
 	IPortfolio,
@@ -24,6 +25,22 @@ export const navLinks: ILink[] = [
 		name: 'Services',
 	},
 ]
+
+export const heroStats: IHeroStats[] = [
+	{
+		title: '5000+',
+		descr: 'Number of Clients Served',
+	},
+	{
+		title: '300+',
+		descr: 'Number of Completed Projects',
+	},
+	{
+		title: '8 Years',
+		descr: 'Unicorp of Delivered Solutions',
+	},
+]
+
 export const services: IService[] = [
 	{
 		title: 'Web Development',
