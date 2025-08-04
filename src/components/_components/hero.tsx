@@ -27,7 +27,7 @@ function Hero() {
 								: 'translate-y-full opacity-0'
 						)}
 					>
-						UniCorp
+						Unicorp
 					</p>
 				</div>
 				<div className='text-center md:leading-[40px] leading-[30px]'>
