@@ -18,16 +18,16 @@ function AboutRight() {
 				impedit eum cupiditate aut quibusdam commodi inventore, voluptate
 				necessitatibus sint atque nisi!
 			</p>
-			<div className='w-full h-[60px] flex gap-x-6 max-sm:gap-x-2 mt-4'>
-				<Button className='bg-background border-3 border-[#005AFF] text-white hover:bg-background w-[40%] h-[100%] z-10 max-sm:w-[45%]'>
-					<img src='/about/service.png' width={'20px'} height={'20px'} />
+			<div className=' w-full h-[60px] flex gap-x-6 max-sm:gap-x-2 mt-4'>
+				<Button className='bg-background border-3 border-[#005AFF] text-white hover:bg-background w-[40%] h-[100%] z-10 max-sm:w-[48%]'>
+					<img src='/about/service.png' width={'16px'} />
 					<p>Quality Services</p>
 				</Button>
 				<Button
 					variant={'default'}
-					className='text-white w-[40%] h-[100%] max-sm:w-[45%]'
+					className='text-white w-[40%] h-[100%] max-sm:w-[48%]'
 				>
-					<img src='/about/stars.png' width={'20px'} height={'20px'} />
+					<img src='/about/stars.png' width={'16px'} />
 
 					<p>Unusel Projects</p>
 				</Button>

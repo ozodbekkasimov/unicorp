@@ -21,7 +21,7 @@ function Hero() {
 				<div className='md:leading-[80px] leading-[70px] w-full flex items-center justify-center overflow-hidden'>
 					<p
 						className={cn(
-							'relative z-100 sf-pro-display font-[600] md:text-[60px] text-[50px] text-blue-500 text-shadow-[0_0_20px_#2c4cff] transition duration-2000',
+							'relative z-100 sf-pro-display font-[600] md:text-[60px] text-[40px] text-blue-500 text-shadow-[0_0_20px_#2c4cff] transition duration-2000',
 							showTitle
 								? 'translate-y-0 opacity-100'
 								: 'translate-y-full opacity-0'
@@ -33,7 +33,7 @@ function Hero() {
 				<div className='text-center md:leading-[40px] leading-[30px]'>
 					<p
 						className={cn(
-							`relative z-100 sf-pro-display font-semibold md:text-[50px] text-[40px] transition duration-2000`,
+							`relative z-100 sf-pro-display font-semibold md:text-[50px] text-[25px] transition duration-2000`,
 							showText
 								? 'translate-y-0 opacity-100'
 								: 'translate-y-full opacity-0'
@@ -73,7 +73,7 @@ function Hero() {
 
 			<div className='flex flex-col md:hidden px-6 py-6 gap-6 -mt-20 max-[340px]:-mt-15 items-center'>
 				{heroStats.map(stats => (
-					<div className='min-[360px]:w-[80%] max-[340px]:py-2 bg-[#0D0E1C] text-white rounded-[30px] p-6 text-center backdrop-blur-sm border border-white/10 shadow-md z-100'>
+					<div className='md:w-[80%] w-full max-[340px]:py-2 bg-[#0D0E1C] text-white rounded-[30px] p-6 text-center backdrop-blur-sm border border-white/10 shadow-md z-100'>
 						<h3 className='text-xl font-bold mb-2 text-blue-500'>
 							{stats.title}
 						</h3>
